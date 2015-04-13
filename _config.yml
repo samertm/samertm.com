@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: samer
-subtitle: a subtitle
+title: adventures in elisp
+subtitle: samer masterson
 description: samer's blog
 author: Samer Masterson
 # SAMER: set language and timezone
-language:
-timezone: 
+language: en_US
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -64,9 +64,22 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: light
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: samertm
+  user: samer
+  port: 6552
+  root: www
+
+menu:
+  Home: /
+  Archives: /archives
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20

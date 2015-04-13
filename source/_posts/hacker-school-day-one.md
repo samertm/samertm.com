@@ -1,0 +1,13 @@
+title: "hacker school: day one"
+date: 2014-06-09 21:00
+---
+
+I might blog about how Hacker School opens up later, though it went kind of as expected. I was super scared about not being able to actually get to work, but Tom Ballinfdjskjfdwords turned me on to the idea of making my first steps towards a compiler by writing an interpreter... I thought it would be hilarious to write a python interpreter in go, and so after my first morning check in, I started to look at interpreter building resources. I figured I should work on the easiest possible interpreter to finish, in order to build some sort of momentum, and I found Peter Norvig's blog post on [how to write a lisp interpreter in python](http://norvig.com/lispy.html)...
+
+At least the parsing part seemed to map to what I could accomplish in go, so I decided to give it a shot. I had a bout of hyper focus (from hacker school or the coffee? we'll see when my tolerance builds back up) that carried me from nothing to building an abstract syntax tree in two hours. Hacker school is surprisingly noisy, so I shut myself in a room (with a friendly note on the door letting people know they were welcome to come in!) and turned up my music. Caffeine + music makes focusing easy. I can't help but sing, I hope nobody outside heard me! :)
+
+Afterwards, I took a break with Max and walked to a Starbucks with him... I was surprised when I learned he had been working on the exact same project, using Norvig's materials too! So we banded together in the room. At first we worked in silence, occasionally asking questions of each other. I got stuck real bad, and I proposed "pear programming" (it's a silly name, isn't it? especially b/c there are no pears involved.) We spent the next couple hours hashing the problem out verbally during the sticky parts, while I wrote the code. I was shocked at how fulfilling and effective pair programming was! It was nice to slow down and think hard about the program architecture before writing any code. And every victory was shared, which made working through the difficult parts even more rewarding. We ended up finishing eval for atoms and 'def' before our collective minds turned to mush. Overall, it was a rewarding experience.
+
+However, I am unconvinced of pair programming's utility when used for smaller, incremental changes. In pair programming, the fun (and productive) part is talking about design, not finding typos.
+
+I stayed late today, thinking I would finish a lot more. I got a little bit farther with lambdas, but they aren't working yet, and I'm going to save my debugging session for tomorrow.

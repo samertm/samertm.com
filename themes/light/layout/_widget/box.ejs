@@ -1,0 +1,11 @@
+<div class="widget box">
+  <h3 class="title"><%= config.author %></h3>
+  <div class="entry">
+    <p>hey, welcome to my blog.</p>
+  </div>
+  <div class="entry">
+  <% for (var i in theme.box){ %>
+    <p><a href="<%- theme.box[i] %>"><%= i %></a></p>
+    <% } %>
+  </div>
+</div>

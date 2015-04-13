@@ -1,0 +1,9 @@
+Title: "what i'm doing with my life, pt 1"
+date: 2014-04-27 07:32
+---
+
+Hey all, it's my birthday, and I thought I would write up a post about what's going on in my life right now, and my current trajectory. Right now, I'm preparing to go to [Hacker School](http://hackerschool.com), an amazing program where you create things with cool people for three months, and then they help you find a job afterwards. Sort of like a personal accelerator. The program is free, but living in New York City is not -- I'm building my money reserves up for the program. I found a place to live for only ~$700 a month, which is amazing. An unlimited metro card is ~$100 a month, and if I'm being frugal, it should be possible to live on ~$200/month of food, which puts my total monthly expense at $1k! That's a nice, round number. I'm busy selling all of my things via ebay and craigslist. I know I should get a job, but the thought is honestly kind of scary (I am easily scared, like a cat), and I'm not sure how many places are okay with on boarding an employee for a total of one month's work.
+
+I'm incredibly excited for the program to start! I check my email feverishly for updates. I met Allison Kaptur at PyCon, who is already like the coolest person I know. Hacker Schoolers have built some pretty amazing things, the most impressive of which is probably Julia Evan's operating system in Rust! Hacker School seems like the environment I was looking for at my previous University, full of hard working and creative people, and I am SO FREAKING EXCITED!
+
+I'm planning on learning as much about compilers & compiler theory as I can during my time there. I'm working through Stanford's online compilers course right now as preparation. The next post will be a checklist of all the things I need to get done before Hacker School starts.
