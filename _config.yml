@@ -70,7 +70,7 @@ theme: light
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: samertm
+  host: samertm.com
   user: samer
   port: 6552
   root: www
