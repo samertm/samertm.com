@@ -9,10 +9,12 @@ I generate my blog with [hexo](http://hexo.io/), my third or fourth blog generat
 
 So I'm super happy with `hexo deploy`. This is my workflow:
 
-- {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
-- git push      # push to server
-- hexo generate # generate static site
-- hexo deploy   # copy static site to remote host
+```
+ $ {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
+ $ git push      # push to server
+ $ hexo generate # generate static site
+ $ hexo deploy   # copy static site to remote host
+```
 
 But can I do better? (Yes)
 
