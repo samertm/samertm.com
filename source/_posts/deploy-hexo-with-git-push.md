@@ -7,7 +7,7 @@ Hello friends,
 
 I generate my blog with [hexo](http://hexo.io/), my third or fourth blog generator so far, and I'm really enjoying it. Hexo is really flexible, has all sorts of convenience functions, and is *super* easy to deploy (it's literally just `hexo deploy`). Deploys were such a problem for me with my last blog generator that I didn't write a blog post for 6 months! (It was seriously like five steps, and it was super slow even *after* I automated it!)
 
-So I'm super happy with `hexo deploy`. This is my workflow:
+So I'm super happy with hexo. This is my workflow:
 
 ```bash
  $ {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
