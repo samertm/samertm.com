@@ -29,6 +29,8 @@ A `post-receive` server-side git hook is a hook that runs on your server (but yo
 First, some setup.
 
 ```
+# BEFORE YOU START: Make sure you have npm and node set up correctly on your
+# server.
 $ ssh <username>@<your-server> # log into your server
 $ cd <git-repo-for-site>/hooks # assuming your repo is a bare repository
 $ touch post-receive           # create post-receive
