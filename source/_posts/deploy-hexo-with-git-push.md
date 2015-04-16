@@ -9,7 +9,7 @@ I generate my blog with [hexo](http://hexo.io/), my third or fourth blog generat
 
 So I'm super happy with `hexo deploy`. This is my workflow:
 
-```
+```bash
  $ {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
  $ git push      # push to server
  $ hexo generate # generate static site
@@ -30,7 +30,7 @@ A `post-receive` server-side git hook is a hook that runs on your server after a
 
 First, some setup.
 
-```
+```bash
 # BEFORE YOU START: Make sure you have npm and node set up correctly on your
 # server.
 $ ssh <username>@<your-server> # log into your server
@@ -41,7 +41,7 @@ $ nano post-receive            # s/nano/your-favorite-text-editor/
 ```
 
 And then paste this sucker in:
-```
+```bash
 #!/bin/sh
 
 # Hooks are executed with the top level git repository as their working
