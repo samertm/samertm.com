@@ -24,7 +24,7 @@ I will *always* run `hexo generate` and `hexo deploy` after `git push`. So why d
 
 What are git hooks? Git hooks are scripts that you can tell git to run after certain events. There are [many different flavors](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) of git hooks, but we just need a server-side `post-receive` hook. (Btw, this won't work with GitHub. But that's okay, because setting up your own "private" GitHub is actually *way* easier than you probably think it is! As long as you have ssh access to a machine, you can create remote git repos on it. I'll write a post about that soon, but you can follow the [git book's slightly overcomplicated setup](http://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server#Putting-the-Bare-Repository-on-a-Server) for now.)
 
-A `post-receive` server-side git hook is a hook that runs on your server (but you probably guessed that :D) after a push. `git push` won't actually return until `post-receive` is finished running, so you can be sure that your site is completely generated/deployed after `git push` finishes.
+A `post-receive` server-side git hook is a hook that runs on your server after a push. `git push` won't actually return until `post-receive` is finished running, so you can be sure that your site is completely generated/deployed after `git push` finishes.
 
 # THE ACTUAL HOOK (the moment you've all been waiting for)
 
