@@ -51,21 +51,22 @@ And then paste this sucker in:
 # be. More info:
 # http://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server
 
-mkdir tmp # I'm 90% sure you can make arbitrary directories inside a git repo.
-# check out the branch "master" into "tmp"
-git --work-tree=tmp checkout master
-# move to "tmp"
-cd tmp
-# install hexo modules into "tmp"
+# you can make arbitrary directories inside git repos
+mkdir hexo-tmp
+# check out the branch "master" into "hexo-tmp"
+git --work-tree=hexo-tmp checkout master
+# move to "hexo-tmp"
+cd hexo-tmp
+# install hexo modules into "hexo-tmp"
 npm install
 # generate your site (to "public" by default)
 hexo generate
 # copy your site (recursively, verbosely, preserving file metadata) from
 # "public" to your website directory.
 rsync -rva public/ <path-to-website, e.g. "~/www">
-# clean up "tmp"
+# clean up "hexo-tmp"
 cd ..
-rm -r tmp
+rm -r hexo-tmp
 ```
 
 (Make sure to change the path on the `rsync ...` line!)
