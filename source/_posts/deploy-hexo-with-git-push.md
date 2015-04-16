@@ -62,7 +62,7 @@ npm install
 hexo generate
 # copy your site (recursively, verbosely, preserving file metadata) from
 # "public" to your website directory.
-rsync -arv public/ <path-to-website, e.g. "~/www">
+rsync -rva public/ <path-to-website, e.g. "~/www">
 # clean up "tmp"
 cd ..
 rm -r tmp
