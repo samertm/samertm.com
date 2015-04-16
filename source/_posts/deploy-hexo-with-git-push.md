@@ -7,7 +7,7 @@ Hello friends,
 
 I generate my blog with [hexo](http://hexo.io/), my third or fourth blog generator so far, and I'm really enjoying it. Hexo is really flexible, has all sorts of convenience functions, and is *super* easy to deploy (it's literally just `hexo deploy`). Deploys were such a problem for me with my last blog generator that I didn't write a blog post for 6 months! (It was seriously like five steps, and it was super slow even *after* I automated it!)
 
-So I'm super happy with hexo. This is my workflow:
+I'm super happy with hexo. This is my workflow:
 
 ```bash
  $ {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
@@ -18,7 +18,7 @@ So I'm super happy with hexo. This is my workflow:
 
 But can I do better? (Yes)
 
-I will *always* run `hexo generate` and `hexo deploy` after `git push`. So why do I need to type them myself? I pay Amazon good money for Robot Computers in the Cloud™ (my buzzword game is on point), so let's put those robots to good use and set up a [git server-side hook](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks#Server-Side-Hooks) to generate and deploy the site for us.
+I will *always* run `hexo generate` and `hexo deploy` after `git push`. Then why do I need to type them myself? I pay Amazon good money for Robot Computers in the Cloud™ (my buzzword game is on point), so let's put those robots to good use and set up a [git server-side hook](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks#Server-Side-Hooks) to generate and deploy the site for us.
 
 # Git hooks
 
