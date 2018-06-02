@@ -5,7 +5,7 @@
 # Site
 title: adventures in elisp
 subtitle: samer masterson
-description: samer's blog
+description: samer\'s blog
 author: Samer Masterson
 # SAMER: set language and timezone
 language: en_US
@@ -37,7 +37,7 @@ external_link: false # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 future: true
 highlight:
   enable: true
@@ -53,7 +53,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: MM-DD-YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -64,7 +64,28 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: light
+theme: bootstrap-blog
+
+theme_config:
+  menu:
+    Home: /
+    Projects: /projects
+    About: /about
+    Archives: /archives
+  about_widget_content: >-
+    <div>
+      <p>(defvar samer 'human "a dynamic person")</p>
+      <p><a href="mailto:samer@samertm.com">samer@samertm.com</a></p>
+      <p><a href="https://github.com/samertm">GitHub</a></p>
+      <p><a href="https://twitter.com/samertm">Twitter</a></p>
+      <p><a href="/res/samermastersonresume.pdf">resume</a></p>
+    </div>
+  google_analytics: UA-38302865-2
+  rss: /atom.xml
+  exerpt_link: false
+  widgets:
+    - about
+
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -74,10 +95,7 @@ deploy:
   user: samer
   port: 6552
   root: www
-
-menu:
-  Home: /
-  Archives: /archives
+  
 
 feed:
   type: atom

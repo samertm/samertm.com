@@ -2,7 +2,7 @@ title: about
 date: 2014-04-08
 ---
 
-I'm Samer Masterson, and you've stumbled upon my site. I am a software engineer at Sourcegraph in San Francisco, and an Emacs Lisp engineer in my free time. I enjoy talking about Emacs, productivity, organization, compilers, lisp, and music.
+I'm Samer Masterson, and you've stumbled upon my site. I'm currently a software engineer at Dropbox working on the Dropbox desktop client. I enjoy talking about Emacs, productivity, organization, compilers, lisp, and music.
 
 I was in the first Summer '14 batch of [Recurse Center](https://recurse.com), where people go to do cool things. I made some stuff and had a blast!
 
