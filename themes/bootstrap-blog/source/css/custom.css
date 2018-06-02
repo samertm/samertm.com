@@ -309,3 +309,13 @@ code {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * Overrides
+ */
+.highlight pre {
+  background-color: #f9f9f9;
+}
+.highlight .table>tbody>tr>td {
+  border-top: unset;
+}

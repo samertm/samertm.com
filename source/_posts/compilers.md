@@ -1,4 +1,4 @@
-Title: hacker school plan (compilers!)
+title: hacker school plan (compilers!)
 date: 2014-04-27 08:00
 ---
 

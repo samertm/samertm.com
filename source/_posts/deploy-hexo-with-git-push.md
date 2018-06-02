@@ -10,7 +10,8 @@ I generate my blog with [hexo](http://hexo.io/), my third or fourth blog generat
 I'm super happy with hexo. This is my workflow:
 
 ```bash
- $ {100 freaking git commands, someone seriously needs to write a usable wrapper for git}
+ # 100 freaking git commands, someone seriously
+ # needs to write a usable wrapper for git
  $ git push      # push to server
  $ hexo generate # generate static site
  $ hexo deploy   # copy static site to remote host
@@ -31,8 +32,8 @@ A `post-receive` server-side git hook is a hook that runs on your server after a
 First, some setup.
 
 ```bash
-# BEFORE YOU START: Make sure you have npm and node set up correctly on your
-# server.
+# BEFORE YOU START: Make sure you have npm and node set up correctly on
+# your server.
 $ ssh <username>@<your-server> # log into your server
 $ cd <git-repo-for-site>/hooks # assuming your repo is a bare repository
 $ touch post-receive           # create post-receive
@@ -47,8 +48,8 @@ And then paste this sucker in:
 # Hooks are executed with the top level git repository as their working
 # directory, i.e. "/home/person/site", not "/home/person/site/hooks".
 
-# This script assumes your remote repo is a "bare" repository, which it should
-# be. More info:
+# This script assumes your remote repo is a "bare" repository, which
+# it should be. More info:
 # http://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server
 
 # you can make arbitrary directories inside git repos

@@ -19,29 +19,6 @@ I bought 8gb of ram (after buying 6gb of DDR2 ram that didn't fit, whoops) and t
 
 And here are the results:
 
-#### Before: 2gb
-<img src="/img/before_plot.png">
-
-#### Before Median
-<img src="/img/before_median.png">
-
-#### Before Max
-<img src="/img/before_max.png">
-
-#### Before Min
-<img src="/img/before_min.png">
-
-#### After: 8gb
-<img src="/img/after_plot.png">
-
-#### After Median
-<img src="/img/after_median.png">
-
-#### After Max
-<img src="/img/after_max.png">
-
-#### After Min
-<img src="/img/after_min.png">
-
+*06-01-2018: Unfortunately, the results have been lost to the sands of time*
 
 And what are my conclusions? I'm not exactly sure :P 

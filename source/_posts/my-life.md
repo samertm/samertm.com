@@ -1,4 +1,4 @@
-Title: "what i'm doing with my life, pt 1"
+title: "what i'm doing with my life, pt 1"
 date: 2014-04-27 07:32
 ---
 
